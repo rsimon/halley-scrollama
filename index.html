@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TEMP Hack</title>
+    <script src="https://unpkg.com/scrollama"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+      html,body {
+        background-color: #000;
+        color:#ffffff;
+        font-size:30px;
+        font-style:italic;
+        font-family: 'Crimson Text', serif;
+      }
+
+      #globe {
+        position:fixed;
+        width:100vw;
+        height:100vh;
+        z-index:0;
+      }
+
+      .year {
+        position:fixed;
+        right:40px;
+        bottom:40px;
+        padding: 15px 30px;
+        background-color: grey;
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        -webkit-transition: opacity .2s ease-in-out;
+           -moz-transition: opacity .2s ease-in-out;
+            -ms-transition: opacity .2s ease-in-out;
+             -o-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+      }
+
+      #root {
+        position:relative;
+        z-index:1;
+      }
+
+      .step {
+        min-height:100vh;
+        padding:60px 300px 60px 60px;
+        line-height:160%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="globe"></div>
+    
+    <div class="year"></div>
+
+    <div id="root"></div>
+  
+    <script>
+      const COORDINATES = {
+        'China': { lat: 32.8, lng: 103.083333 },
+        'Babylonia': { lat: 32.542222222222, lng: 44.421111111111 },
+        'Japan': { lat: 35.683333, lng: 139.766667 },
+        'Europe': { lat: 48.690959, lng: 9.14062 },
+        'Korea': { lat: 38.316667, lng: 127.233333 }
+      };
+
+      const toNode = el => {
+        const div = document.createElement('div');
+        div.setAttribute('class', 'step');
+        div.innerHTML = el.desc;
+
+        return div;
+      };
+
+      window.onload = function() {
+        const myGlobe = Globe();
+        myGlobe(document.getElementById('globe'))
+          .globeImageUrl('https://unpkg.com/three-globe/example/img/earth-blue-marble.jpg')
+          .labelLat(d => d.lat)
+          .labelLng(d => d.lng)
+          .labelText(d => '')
+          .labelDotRadius(2.5)
+          .labelColor(() => 'rgba(255, 165, 0, 0.75)')
+          .labelResolution(2);
+        
+        const root = document.getElementById('root');
+        const year = document.querySelector('.year');
+
+        fetch('halley_sightings.json')
+          .then(response => response.json())
+          .then(data => {
+            const texts = 
+              data.TEI.text.body.listEvent.event.filter(obj =>
+                typeof obj.desc == 'string');
+
+            texts.forEach(element => 
+              root.appendChild(toNode(element)));
+
+              const scroller = scrollama();
+              scroller
+                .setup({
+                  step: '.step'
+                })
+                .onStepEnter(response => {
+                  const data = texts[response.index];
+
+                  const places = data.where ? data.where.split(' ') : null;
+
+                  if (places) {
+                    const { lat, lng } = COORDINATES[places[places.length - 1 ]];
+                    myGlobe.pointOfView({ lat, lng }, 1000);
+                    myGlobe.labelsData([{ lat, lng }]);
+                  }
+
+                  const currentYear = parseInt(data.when);
+
+                  if (currentYear > 0)
+                    year.innerHTML = currentYear;
+                  else 
+                    year.innerHTML = (Math.abs(currentYear) + 1) + ' BCE';         
+                })
+                .onStepExit(response => {
+                  // myGlobe.pointOfView({ lat: 48, lng: 16, altitude: 3 }, 1000);
+                  console.log('exit', response);
+                });
+          });
+      }
+    </script>
+  </body>
+</html>

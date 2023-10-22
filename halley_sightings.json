@@ -1,0 +1,193 @@
+{
+  "TEI": {
+      "xmlns": "http://www.tei-c.org/ns/1.0",
+      "teiHeader": {
+          "fileDesc": {
+              "titleStmt": {"title": "Hayley sightings"},
+              "publicationStmt": {"p": "Tempo Hackathon"},
+              "sourceDesc": {
+                  "p": {
+                      "#text": "Data provided by ",
+                      "persName": "Doris Vickers"
+                  }
+              }
+          }
+      },
+      "text": {
+          "body": {
+              "listEvent": {
+                  "desc": "Hayley sightings",
+                  "event": [
+                      {
+                          "when": "-0239",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "During this year (i.e. 240 BC), a broom star first appeared at the E direction;\n                  it was then seen at the N direction. In the month May 24 to Jun 23 it was seen at\n                  the W direction... The broom star was again seen at the W direction for 16\n                  days.Shih-chi, Annals"
+                      },
+                      {
+                          "when": "-0163",
+                          "where": "Babylonia",
+                          "label": "Babylonia",
+                          "desc": "The comet which previously had appeared in the east in the path of Anu in the\n                  area of Pleiades and Taurus, to the west [ ... ] and passed along in the path of\n                  Ea.\"BM 41462: 16f (LBAT 380) [ ... in the path] of Ea in the region of\n                  Sagittarius, 1 cubit in front of Jupiter, 3 cubits high toward the north [ ... ]BM\n                  41628: 9' (LBAT 378)"
+                      },
+                      {
+                          "when": "-0086",
+                          "where": "Babylonia",
+                          "label": "Babylonia",
+                          "desc": "On the 13th (?), the interval between moonrise and sunset was 8 degrees,\n                  measured; first part of the night, a comet [...] which in months IV day beyond\n                  day, one cubit [...] between north and west its tail 4 cubits [...] BM 41018 rev.\n                  8-10"
+                      },
+                      {
+                          "when": "-0011",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "\"On Aug 26 a star emerged (po) at Tung-ching (22nd lunar mansion); it was\n                  treading on Wu-chu-hou. It appeared to the N of Hoshu and passed through\n                  Hsuan-yuan and T'ai-wei. Later it travelled at more than 6 deg (tu) daily. In the\n                  morning it appeared at the E direction. On the evening of the 13th day (Sep 7) it\n                  was seen at the W direction. It trespassed against Tz'u-fei, Ch'ang-ch'iu, (Pei-)\n                  Tou and Saturn. Its \"swarming flames\" again penetrated within Tzu-wei, with Ta-huo\n                  (= Antares) right behind. It reached T'ien-ho (the Milky Way), sweeping the region\n                  of Hou and Fei. It moved S, crossing and trespassing against Ta-chueh (= Arcturus)\n                  and She-t'i. When it reached T'ien-shih it moved slowly at a regular pace. Its\n                  \"flames\" entered T'ien-shih. After a further ten days it went towards the W. On\n                  the 56th day (Oct 20) it went out of sight together with\n                  Ts'ang-lung.\"Ch'ien-han-shu, Treatise on the Five Elements"
+                      },
+                      {
+                          "when": "0066",
+                          "desc": {}
+                      },
+                      {
+                          "when": "0141",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a ting-su day in the second month of the sixth year of the Yung-Ho\n                  reign-period a (hui) comet appeared in the E measuring 6 to 7 ft, with a\n                  bluish-white colour and pointing SW towards the Ying-Shih (13th lunar mansion) and\n                  FanMu. On a ting-chhou day [16th April] the comet was at one degree (tu) within\n                  the Khuei (15th lunar mansion) measuring 6 ft (chhih). On a kuei-wei day [22nd\n                  April] it appeared at dusk and passed the Mao and the Pi (18th and 19th lunar\n                  mansions) at the NW. On a chia-shen day [23rd April] it was at the Tung-Ching\n                  (22nd lunar mansion). It then passed the Yi Kuei, the Liu, the Chhi-Hsing and the\n                  Chang (23rd, 24th, 25th and 26th lunar mansions) with its rays extending to\n                  San-Thai. It went out of sight when it came in the midst of Hsien-Yuan."
+                      },
+                      {
+                          "when": "0218",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "During the third month of the 23rd year of the Chien-An reignperiod [13th April\n                  to 12th May] a comet appeared in the morning in the E. After more than 20 days it\n                  appeared in the evening in the W. It trespassed against and passed Wu.Chh, the\n                  Tung-Ching (22nd lunar mansion), Wu-Chu-Hou, Wen-Chhang, the stars Hou and Fei of\n                  Hsien-Yuan and the Thai-Wei (Enclosure). Its rays were pointing towards\n                  Ti-Tso."
+                      },
+                      {
+                          "when": "0295",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "During the fourth month of the fifth year of the Yuan-Khang reign-period of\n                  Hui-Ti [lst May to 30th May] a (po) comet appeared at the Khuei (15th lunar\n                  mansion), extending as far as Hsien-Yuan and the Thai-Wei (Enclosure). It passed\n                  San-Thai and TaLing."
+                      },
+                      {
+                          "when": "0374",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a ting-ssu day in the first month [should read 'second month'] of the second\n                  year of the Ning-Khang reign-period of Hsiao-Wu-Ti a (po) comet appeared at the N\n                  and the Hsi (tenth and llth lunar mansions). It then passed the Ti, the Khang, the\n                  Chio, the Chen, the I and the Chang (third, second, first, 28th, 27th and 26th\n                  lunar mansions). On a ping-hsi day [2nd April] in the third month the comet was\n                  seen at the Ti [third lunar mansion] as a hui."
+                      },
+                      {
+                          "when": "0451",
+                          "desc": {}
+                      },
+                      {
+                          "when": "0530",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a chia-wu day in the seventh month of the third year of the Yung-An\n                  reign-period of Chuang-Ti a (hui) comet appeared in the morning in the NE at a\n                  distance of 10 ft (1 chang) to the east of Chung-Thai. It measured 6 ft (chhih) in\n                  length and was of a pure white colour. It was moving NE and pointing SW. On a\n                  ting-yu day [Ist September] it was 1 ft to the NW of the upper star of Hsia-Thai.\n                  It went out of sight in the morning. On a k4ng-tzu day [4th September] it was seen\n                  in the evening at the NW measuring 1 ft and pointing SE. It gradually turned to\n                  the Ti (third lunar mansion). On a chi-wei day in the eighth month [23rd\n                  September] it was barely seen. On a kuei-hai day [27th September] it disappeared\n                  altogether."
+                      },
+                      {
+                          "when": "0607",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a hsin-hai day in the third month of the third year of the Ta-Yeh\n                  reign-period a (chhang-hsing) comet appeared in the W extending across the heavens\n                  and passed the Khuei, the Lou, the Chio and the Khang (15th, 16th, first and\n                  second lunar mansions). It went out of sight, but reappeared on a hsin-wei day in\n                  the ninth month [21st October] at the south. It also extended across the heavens\n                  from the Chio and the Khang (first and second lunar mansions), but swept Ti-Tso\n                  within the Thai-Wei (Enclosure) and trespassed against all the other lunar\n                  mansions with the exception of the Shen (21st lunar mansion). It appeared\n                  throughout the rest of the year before going out of sight.Sui 21/36a; WttTK\n                  286/21a; W172 On a ping-tzu day in the first month of the third year of the Ta-Yeh\n                  reign-period [28th February] a (chhang-hsing) comet which extended across the\n                  heavens was seen at the Tung-Pi (14th lunar mansion) before going out of sight\n                  after 20 days. [...] On a chi-chhou day in the second month [13th March] a (hui)\n                  comet appeared at the Tung.Ching (22nd lunar mansion) and Wn-Chang. It passed\n                  Ta-Ling, Wu-Ch and Pei-Ho before entering the Thai-Wei (Enclosure) and swept both\n                  the forward and rear (stars) of Ti-Tso. It ceased to be visible after more than a\n                  hundred days.Pei Shih"
+                      },
+                      {
+                          "when": "0684",
+                          "where": "China Japan",
+                          "label": "China, Japan",
+                          "desc": "On the 22nd day in the seventh month of the first year of the W~n-Ming\n                  reign-period a (hui) comet measuring over 10 ft (1 chang) appeared in the W. After\n                  49 days it went out of sight [i.e., 24th October]. On the 29th day in the ninth\n                  month of the first year of the Kuang-Ch reign-period [llth November] a star like a\n                  half-moon was seen at the west.\" On the 23rd day in the seventh month of the 12th\n                  year of Temmuterm5 [31st August, 684] a (hui) comet measuring over 10 ft (i chang)\n                  was observed. During the llth month [12th December, 684 to 10th January, 685] a\n                  (po) comet appeared at the central heavens and moved along with the Mao (18th\n                  lunar mansion) until the end of the month, when it went out of sight.\""
+                      },
+                      {
+                          "when": "0760",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a ting-su night in the fourth month of the third year of the Chhien-Yuan\n                  reign-period a (hui) comet appeared at the fifth watch (03.00 to 05.00 hr) in the\n                  E. It was white in colour and measured 4 ft (chhih). Starting between the Lou and\n                  the Wei (16th and 17th lunar mansions) it moved rapidly towards the NE corner\n                  passing the Mao, the Pi, the Tsui, the Shen, the (Tung-)Ching, the Yi-Kuei and the\n                  Liu (18th to the 24th lunar mansions) and Hsien- Yuan before it reached a position\n                  about 7 in. (tshun) away from Yu-Chih-Fa of the Thai-Wei (Enclosure). After more\n                  than 50 days it went out of sight."
+                      },
+                      {
+                          "when": "0837",
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a ping-wu day in the second month of the second year of the Khai-Chng\n                  reign-period a (hui) comet appeared at the first degree of the Wei (12th lunar\n                  mansion). It measured over 7 ft (chhih) and was pointing westwards at the Nan-Tou\n                  (5th lunar mansion). On a wu-shen day [24th March] it appeared at the SW of the\n                  Wei (12th lunar mansion) and its rays had increased both in length and in\n                  intensity and also pointing westward. On a kuei-chhou night [29th March] the comet\n                  was at the 8th degree of the Wei (12th lunar mansion). On a kng-shen night [5th\n                  April] it was found 3 degrees (tu) from the Hsi~ (7th lunar mansion). On a hsin-yu\n                  day [6th April] its length exceeded 10 ft (1 chang) and it was seen moving\n                  westward at 1 degrees from the Hsi (7th lunar mansion) and (with its tail)\n                  gradually pointing towards the south. On ajen-hsi day [7th April] its length was\n                  over 20 ft (2 chang) and its width was more than 3 ft (chhih). It was found at 9\n                  degrees (tu) from the N (tenth lunar mansion). On a kuei-hai night [8th April] it\n                  increased both in length and in width at the 4th degree of the N (tenth lunar\n                  mansion). On a chia-tzu night [9th April], the first day of the third month it was\n                  seen at 10 degrees from the 1Van-Tou (tenth lunar mansion), with its length\n                  measuring 50 ft (5 chang). Its tail then branched off into two, one pointing\n                  towards the Ti (third lunar mansion) and the other enveloping the Fang (fourth\n                  lunar mansion). On a ping-yin night [7th April] it measured 60 ft (6 chang), but\n                  was no longer branched and pointed towards the N. It was found at the seventh\n                  degree of the Wei (sixth lunar mansion) [should read Khang, the second lunar\n                  mansion]. On a wu-chen night [13th April] the comet measured 80 ft (8 chang) and\n                  was moving towards the NW and pointing E at the 14th degree of the Chang (26th\n                  lunar mansion). On a ]cuei-wei night [28th April] the comet measured 3 ft (chih)\n                  and appeared at the right of Hsien-Yuan, pointing eastwards and situated at the\n                  tenth degree of the Chang (26th lunar mansion)."
+                      },
+                      {
+                          "when": "0912",
+                          "where": "China Japan Europe",
+                          "label": "China, Japan, Europe",
+                          "desc": "A dark and rainy year. A comet appeared.Annals of Ulster On a ping-wu day in\n                  the second month of the second year of the Khai-Chh~ng reign-period a (hui) comet\n                  appeared at the first degree of the Wei (12th lunar mansion). It measured over 7\n                  ft (chhih) and was pointing westwards at the Nan-Tou (Sth lunar mansion). On a\n                  wu-shen day [24th March] it appeared at the SW of the Wei (12th lunar mansion) and\n                  its rays had increased both in length and in intensity and also pointing westward.\n                  On a kuei-chhou night [29th March] the comet was at the 8th degree of the Wei\n                  (12th lunar mansion). On a k~ng-shen night [5th April] it was found 3 degrees (tu)\n                  from the Hsi~ (llth lunar mansion). On a hsin-yu day [6th April] its length\n                  exceeded 10 ft (1 chang) and it was seen moving westward at 1 degrees from the Hsi\n                  (llth lunar mansion) and (with its tail) gradually pointing towards the south. On\n                  ajen-hsi day [7th April] its length was over 20 ft (2 chang) and its width was\n                  more than 3 ft (chih). It was found at 9 degrees (tu) from the N/~ (tenth lunar\n                  mansion). On a kuei-hai night [8th April] it increased both in length and in width\n                  at the 4th degree of the N (tenth lunar mansion). On a chia-tzu night [9th April],\n                  the first day of the third month it was seen at 10 degrees from the 1 Van-Tou\n                  (tenth lunar mansion), with its length measuring 50 ft (5 chang). Its tail then\n                  branched off into two, one pointing towards the Ti (third lunar mansion) and the\n                  other enveloping the Fang (fourth lunar mansion). On a ping-yin night [llth April]\n                  it measured 60 ft (6 chang), but was no longer branched and pointed towards the N.\n                  It was found at the seventh degree of the Wei (sixth lunar mansion) [should read\n                  Khang, the second lunar mansion]. On a wu-chhen night [13th April] the comet\n                  measured 80 ft (8 chang) and was moving towards the NW and pointing E at the 14th\n                  degree of the Chang (26th lunar mansion). On a cuei-wei night [28th April] the\n                  comet measured 3 ft (chhih) and appeared at the right of Hsien-Yuan, pointing\n                  eastwards and situated at the tenth degree of the Chang (26th lunar mansion). On\n                  the third day in the sixth month of the 12th year of the Engi reign-period [19th\n                  July] a (hui) comet appeared in the NW. On the eighth day [24th July] it appeared\n                  at the SE. On the ninth day [25th July] it reappeared in the NW and on the 12th\n                  day [28th July] the comet was seen in the W."
+                      },
+                      {
+                          "when": "0989",
+                          "where": "China Japan Korea",
+                          "label": "China, Japan, Korea",
+                          "desc": "On a wu-tzu day in the seventh month of the second year of the Tuan-Kung\n                  reign-period a (hui) comet appeared at the Tung.Ching (22nd lunar mansion) and\n                  Chi-Shui. It was bluish-white and its rays gradually lengthened. In the morning it\n                  was seen at the NE for ten days and in the evening at the NW. It passed\n                  Yu-Sh~-Thi. After 30 days it reached the Khang (second lunar mansion) and went out\n                  of sight. On the first day in the sixth month of the first year of the Eiso\n                  reignperiod [6th July] a (hui) comet appeared in the east and in the west. On the\n                  13th day in the seventh month [16th August] it appeared in the E measuring about 5\n                  ft. It lasted several days. On a chia-wu day in the ninth month of the eighth year\n                  of S6ngjong[18th October] a (hui) comet was seen."
+                      },
+                      {
+                          "when": 1066,
+                          "where": "China Japan Korea",
+                          "label": "China, Japan, Korea, Bayeux Tapestry",
+                          "desc": "On a chi-wei day in the third month of the third year of the ChihPhing\n                  reign-period a (hui) comet appeared at the Ying.Shih (13th lunar mansion). In the\n                  morning it was seen at the E measuring about 7 ft, pointing SW towards the Wei\n                  (12th lunar mansion) and reaching Fen-Mu. It gradually moved faster towards the\n                  east and became concealed when it approached the Sun. Until the evening on a\n                  hsin-ssu day [24th April] it appeared at the NW, but without its rays. The comet\n                  moved further eastward. Then there was a white vapour about 3 ft in width\n                  penetrating the Tzu-Wei (Enclosure) and the Pole Star, joining the Fang (fourth\n                  lunar mansion) and with both its head and its tail getting below the horizon. The\n                  comet moved further eastward, passed Wn-Chang and Pei-Tou and penetrated the Wei\n                  (sixth lunar mansion). On a jen-wu day [25th April] the comet retained its rays\n                  and measured over 10 ft (1 chang) in length and 3 ft in breadth. It was pointing\n                  NE and then it passed WuChh. The white vapour became branched, stretching\n                  horizontally across the heavens, and penetrated Pei-Ho, Wu-Chu-Hou, Hsien-Yuan and\n                  Wu-Ti-Tso and ei-Wu-Chu-Hou within the Thai-Wei (Enclosure). It reached the Chio,\n                  the Khang, the Ti and the Fang (first, second, third and fourth lunar mansions).\n                  On a kuei-wei day [26th April] the comet measured 15 ft. It had a broom-like\n                  vapour and resembled a ten-peck measure. From the Ying-Shih (13th lunar mansion)\n                  it moved to the Chang (26th lunar mansion) passing altogether 14 lunar mansions.\n                  The comet and the vapour went out of sight after a total of 67 days. On the sixth\n                  day in the third month of the second year of the Chiryaku reign-period [22nd\n                  April] a (hui) comet measuring 7 ft appeared in the E. It went out of sight after\n                  20 days, but another five days later it reappeared in the W. On a ting chou day in\n                  the third month of the 20th year of Munjong 19th April) a star like a moon rose\n                  from the NW. Presently it transformed into a comet. "
+                      },
+                      {
+                          "when": 1145,
+                          "where": "China Japan Korea",
+                          "label": "China, Japan, Korea, Eadwine Psalter",
+                          "desc": "On a wu-yin day in the fourth month of the 15th year of the ShaoHsing\n                  reign-period a (hui) comet was seen in the E. On a ping-shen day [3rd June] it\n                  again appeared within the longitudes of the Shen (21st lunar mansion). On a\n                  ting-ssu day in the fifth month [4th June] it transformed itself into a 'guest\n                  star'. Its colour was bluish-white. On a jen-hsi day [14th June] it stayed by the\n                  side and guarded the Chang (26th lunar mansion). On a ting-wei day in the sixth\n                  month [9th July] it went out of sight. On the fifth day in the fourth month of the\n                  first year of the Kyfian reign-period [28th April] a white (hui) comet measuring\n                  over 10 ft appeared at the E and trespassed against the Khuei (15th lunar\n                  mansion). On the 16th day [9th May] its rays measured about 20 ft pointing towards\n                  the W. On the 20th day [13th May] it was not seen. On the 23rd day [16th May] it\n                  reappeared at the W and measured about 5 ft pointing E. On the 24th day [17th May]\n                  it measured about 20 ft. On a ping-shen day in the fourth month of the 23rd year\n                  of Injong [14th May] a (hui) comet measuring over 10 ft was observed for 15 days\n                  at the NW. "
+                      },
+                      {
+                          "when": 1222,
+                          "where": "China Japan Korea",
+                          "label": "China, Japan, Korea",
+                          "desc": "On a chi-mao day in the eighth monh of the sixth year of the Hsing-Ting\n                  reign-period a comet appeared among the Chio and the Khang (first and second lunar\n                  mansion), Yu-Sh-Thi and Chou-Ting pointing towards Ta-Chio (Arcturus). On a\n                  jen-shen day in the seventh month of the ninth year of Kojong [3rd September] a\n                  comet appeared within San-Thai, with its tail pointing W and measuring about 3 ft.\n                  On a ting-chhou day in the eighth month [8th September] it appeared at the NW\n                  measuring about 20 ft. On a wu-yin day [9th September] it was seen in the day. On\n                  the first day in the eighth month of the first year of the Tei-5 reign-period [7th\n                  September] a (hui) comet appeared at the NW. On the eighth day [14th September] it\n                  was seen at the W instead. "
+                      },
+                      {
+                          "when": 1301,
+                          "where": "China Korea",
+                          "label": "China, Korea, Giotto di Bondone",
+                          "desc": "From a kng-chhen day in the eighth month to an i-chou day in the ninth month of\n                  the fifth year of the Ta-T reign-period [16th September to 31st October] a (hui)\n                  comet appeared within 24-4 degrees [24 tu 40 fin] of the (Tung-)Ching (22nd lunar\n                  mansion) reaching the large star of Nan-Ho. It was white in eolour and measured 5\n                  ft in length. It formed a right line in the NW direction. It.passed Wen my,\n                  entered the 'box' of Pei-To u and swept Thai. Yang. By the time it swept Pei-Tou,\n                  Thien-Chi, the Tzu-Wei Enclosure, San-Kung and Kuan-So it was measuring over 10\n                  ft. Then it reached the east of Pa-Shu in the Thien-Shih Enclosure, went to the\n                  south of Liang and Chhu and above the star Sung and was measuring 1 ft before it\n                  went out of sight after a total appearance of 46 days. On a wu yin day in the\n                  eighth month of the 27th year of Ch'ungnyol Wang [14th September, 1301] a comet\n                  appeared at Pei-Tou and the Tzu-Wei Enclosure. On a jen-wu day [18th September] it\n                  appeared at Pei-Tou. On an i-wei day [lst October] it was seen at Shang-Thai and\n                  then it entered the Thien-Shih Enclosure. On a kuei-mao day in the ninth month\n                  [9th October] it was observed at the Thien-Shih Enclosure. "
+                      },
+                      {
+                          "when": 1378,
+                          "where": "China",
+                          "label": "China",
+                          "desc": "On a chia-hsi day in the ninth month of the llth year of the Hung-Wu\n                  reign-period a star appeared at the NE of Wu-Ch. It emitted rays over 10 ft long\n                  and swept Nei-Chieh. It then entered the Tzu-Wei Enclosure, swept the five stars\n                  of Pei-Chi, trespassed against the star Shao-Tsai at the Eastern Wall and then\n                  entered the Thien-Shih Enclosure. It was trespassing against the Thien-Shih\n                  Enclosure until it went out of sight on a cloudy (night) on a chi-wei day in the\n                  tenth month [10th November]."
+                      },
+                      {
+                          "when": 1456,
+                          "where": "China Korea",
+                          "label": "China, Korea, Bartolomeo Platina (aka Sacchi)",
+                          "desc": "A maned and fiery comet appearing for several days, while astrologers were\n                  predicting a great plague, dearness of food, or some great disaster, Callistus\n                  decreed that supplicatory prayers be held for some days to avert the anger of God,\n                  so that, if any calamity threatened mankind, it might be entirely diverted against\n                  the Turks, the foes of the Christian name. He likewise ordered that the bells be\n                  rung at midday as a signal to all the faithful to move God with assiduous\n                  petitions and to assist with their prayers those engaged in constant warfare with\n                  the Turks.Bartolomeo Platina On a chia-hsi day in the ninth month of the llth year\n                  of the Hung-Wu reign-period a star appeared at the NE of Wu-Ch. It emitted rays\n                  over 10 ft long and swept Nei-Chieh. It then entered the Tzu-Wei Enclosure, swept\n                  the five stars of Pei-Chi, trespassed against the star Shao-Tsai at the Eastern\n                  Wall and then entered the Thien-Shih Enclosure. It was trespassing against the\n                  Thien-Shih Enclosure until it went out of sight on a cloudy (night) on a chi-wei\n                  day in the tenth month [10th November]. On the 27th day in the fourth month of the\n                  second year of the Kosho reign-period [31st May, 1456] a (hui) comet measuring 3\n                  ft appeared in the morning at the NE. Later it was seen at the NW. It appeared\n                  until the first day in the sixth month [3rd July]. On ajen-shen day in the fifth\n                  month of the second year of Sejo [6th June, 1456] a (hui) comet was seen. On a\n                  kuei-yu day [Tth June], on a chia-hsi day [8th June], on an i-hal day [9th June],\n                  on a wu-yin day [12th June], on a chi-mao day [13th June], on an i-yu day [19th\n                  June], on a wu-tzu day [22nd June], on a hsin-mao [25th June], on a chia-wu day\n                  [28th June] and on an i-wei day [29th June] the comet was seen. "
+                      },
+                      {
+                          "when": 1531,
+                          "where": "China Japan Korea",
+                          "label": "China, Japan, Korea, Peter Apian/Girolamo Fracastoro",
+                          "desc": "On an i-su day in the intercalary sixth month of the tenth year [of the\n                  Chia-Ching reign-period] a (hui) comet appeared at the Tung-Ching (22nd lunar\n                  mansion) measuring over i ft and brushing the first star of Hsien-Yuan. Its rays\n                  increased in length. When it reached the I (27th lunar mansion) it measured over 7\n                  ft and swept Thien-Tsun at the NE. It entered the Thai-Wei Enclosure, swept across\n                  Lang-Wei and then brushed the second star from the north of the Khang (second\n                  lunar mansion) at the SE as it moved to the longitudes of the Chio (first lunar\n                  mansion). It gradually diminished (in size) and went out of sight after 34 days.\n                  On a kng-hsi day in the intercalary sixth month of the 26th year of Chungjong\n                  [10th August] a (hui) comet appeared outside the eastern wall of the Thai-Wei\n                  (Enclosure). Its tail extended over 10 ft and its colour was white. On the 27th\n                  day in the sixth month of the fourth year of the Kyroku reign-period [9th August]\n                  a (hui) comet appeared at the NE at 05.00 to 07.00 hr. It measured 5 ft and was\n                  bluish-white. During the seventh month it shifted to the NW."
+                      },
+                      {
+                          "when": 1607,
+                          "label": "Johannes Kepler/Christian Longomontanus",
+                          "desc": "Johannes Keplers 1619 De cometis libelli tres (\u201cThe comets in three books\u201d)\n                  seemingly applies modern design principles to a 17th-century conception of the\n                  heavens. In the curvilinear form, Kepler depicts the shifting orientation of a\n                  comets tail, correctly recording how it always points away from the Sun. But he\n                  shows his comet traveling in a straight line, having failed to perceive that\n                  comets follow the same laws of curved motion that he had deduced for the\n                  planets."
+                      },
+                      {
+                          "when": 1682,
+                          "label": "Edmond Halley",
+                          "desc": "Edmond Halley's calculations permitted him to compare his own observations of\n                  the 1682 apparition to the earlier apparitions in 1531 and 1607 and determine that\n                  they shared nearly identical orbital elements. He concluded all three comets were\n                  the same object returning every 76 years (the period has since been amended to\n                  every 75-76 years). He predicted the comet would return in 1758."
+                      },
+                      {
+                          "when": 1759,
+                          "desc": "Edmond Halley did not live to see his prediction proven correct - he died in\n                  1742. But on Christmas Day (or possibly the following day), 1758, German farmer\n                  and amateur astronomer Johann Georg Palitzsch was the first to officially spot the\n                  returning comet in the heavens. The following year, French astronomer Nicolas\n                  Louis de Lacaille named the comet in Halleys honor."
+                      },
+                      {
+                          "when": 1835,
+                          "label": "Friedrich Wilhelm Bessel/Mark Twain",
+                          "desc": "I came in with Halleys comet in 1835. It is coming again next year, and I\n                  expect to go out with it. It will be the greatest disappointment of my life if I\n                  dont go out with Halleys comet. The Almighty has said, no doubt: Now here are\n                  these two unaccountable freaks; they came in together, they must go out together.\n                  In wonderfully poetic fashion, Twain died on April 12, 1910, which was the very\n                  day after 1P/Halleys perihelion on its return in that year."
+                      },
+                      {
+                          "when": 1910,
+                          "desc": {}
+                      },
+                      {
+                          "when": 1986,
+                          "desc": {}
+                      }
+                  ]
+              }
+          }
+      }
+  }
+}
